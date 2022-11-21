@@ -1,0 +1,17 @@
+D:\Git\Pso.1\Pso.1\bin\Debug\net6.0-windows\Pso.1.exe
+D:\Git\Pso.1\Pso.1\bin\Debug\net6.0-windows\Pso.1.deps.json
+D:\Git\Pso.1\Pso.1\bin\Debug\net6.0-windows\Pso.1.runtimeconfig.json
+D:\Git\Pso.1\Pso.1\bin\Debug\net6.0-windows\Pso.1.dll
+D:\Git\Pso.1\Pso.1\bin\Debug\net6.0-windows\Pso.1.pdb
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.csproj.AssemblyReference.cache
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso._1.ntxtMaxZ.resources
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.csproj.GenerateResource.cache
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.AssemblyInfoInputs.cache
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.AssemblyInfo.cs
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.csproj.CoreCompileInputs.cache
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.dll
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\refint\Pso.1.dll
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.pdb
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\Pso.1.genruntimeconfig.cache
+D:\Git\Pso.1\Pso.1\obj\Debug\net6.0-windows\ref\Pso.1.dll
