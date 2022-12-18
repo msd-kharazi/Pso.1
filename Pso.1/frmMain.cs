@@ -31,13 +31,13 @@ namespace Pso._1
             rtLog.Clear();
             
             var random = new Random();
-            var globalBestPosition = new Position((double)ntxtMaxX.Value, (double)ntxtMaxY.Value);
+            var globalBestPosition = new Position(((double)ntxtMaxX.Value*(random.Next(-100,100)/100.0D)), ((double)ntxtMaxY.Value * (random.Next(-100, 100) / 100.0D)));
 
             var globalBest = new KeyValuePair<Position, double>(globalBestPosition, (double)Math.Abs(globalBestPosition.Z - (double)ntxtTargetZ.Value));
 
 
-            rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"First GBest: ({globalBest.Key.X},{globalBest.Key.Y},{globalBest.Key.Z})"}).ToArray();
-            rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"First min error: {globalBest.Value}"}).ToArray();
+            rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"First GBest: ({globalBest.Key.X:F2} , {globalBest.Key.Y:F2} , {globalBest.Key.Z:F2})"}).ToArray();
+            rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"First min error: {globalBest.Value:F2}"}).ToArray();
             rtLog.Lines = rtLog.Lines.Concat(new List<string> { Environment.NewLine, Environment.NewLine, Environment.NewLine }).ToArray();
 
 
@@ -62,9 +62,9 @@ namespace Pso._1
                     var moveResult = particle.Move(globalBest.Key);
 
                     var particleNewLocation = particle.AllPositions.Last();
-                    rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"Moved to ({particleNewLocation.X},{particleNewLocation.Y},{particleNewLocation.Z})" }).ToArray();
-                    rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"PBest is: ({moveResult.Key.X},{moveResult.Key.Y},{moveResult.Key.Z})" }).ToArray();
-                    rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"Least error is: {moveResult.Value}" }).ToArray();
+                    rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"Moved to ({particleNewLocation.X:F2} , {particleNewLocation.Y:F2} , {particleNewLocation.Z:F2})" }).ToArray();
+                    rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"PBest is: ({moveResult.Key.X:F2} , {moveResult.Key.Y:F2} , {moveResult.Key.Z:F2})"}).ToArray();
+                    rtLog.Lines = rtLog.Lines.Concat(new List<string> { $"Least error is: {moveResult.Value:F2}" }).ToArray();
 
                     if (tempGlobalBest == null)
                     {

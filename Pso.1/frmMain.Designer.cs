@@ -129,7 +129,7 @@
             this.ntxtMinX.Size = new System.Drawing.Size(120, 23);
             this.ntxtMinX.TabIndex = 18;
             this.ntxtMinX.Value = new decimal(new int[] {
-            100,
+            1000,
             0,
             0,
             -2147483648});
@@ -160,7 +160,7 @@
             this.ntxtMaxX.Size = new System.Drawing.Size(120, 23);
             this.ntxtMaxX.TabIndex = 20;
             this.ntxtMaxX.Value = new decimal(new int[] {
-            100,
+            1000,
             0,
             0,
             0});
@@ -191,7 +191,7 @@
             this.ntxtMinY.Size = new System.Drawing.Size(120, 23);
             this.ntxtMinY.TabIndex = 22;
             this.ntxtMinY.Value = new decimal(new int[] {
-            100,
+            1000,
             0,
             0,
             -2147483648});
@@ -222,7 +222,7 @@
             this.ntxtMaxY.Size = new System.Drawing.Size(120, 23);
             this.ntxtMaxY.TabIndex = 24;
             this.ntxtMaxY.Value = new decimal(new int[] {
-            100,
+            1000,
             0,
             0,
             0});
@@ -306,7 +306,7 @@
             this.ntxtC2.Size = new System.Drawing.Size(120, 23);
             this.ntxtC2.TabIndex = 42;
             this.ntxtC2.Value = new decimal(new int[] {
-            3,
+            2,
             0,
             0,
             0});
@@ -338,7 +338,7 @@
             this.ntxtC1.Size = new System.Drawing.Size(120, 23);
             this.ntxtC1.TabIndex = 40;
             this.ntxtC1.Value = new decimal(new int[] {
-            3,
+            2,
             0,
             0,
             0});
@@ -370,7 +370,7 @@
             this.ntxtW.Size = new System.Drawing.Size(120, 23);
             this.ntxtW.TabIndex = 38;
             this.ntxtW.Value = new decimal(new int[] {
-            3,
+            2,
             0,
             0,
             0});
